@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import { PLAYBOOK_DATA } from './constants';
 import TaskDependencyGraph from './components/TaskDependencyGraph';
 import ProtocolRenderer from './components/ProtocolRenderer';
+import ExecutionPanel from './components/ExecutionPanel';
 import { 
   BarChart, 
   Bar, 
@@ -260,6 +261,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Dashboard />} />
           <Route path="/roles" element={<RolesPage />} />
           <Route path="/tasks" element={<TasksPage />} />
+          <Route path="/execution" element={<ExecutionPanel />} />
           <Route path="/protocols" element={<ProtocolsPage />} />
         </Routes>
       </Layout>

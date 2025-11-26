@@ -5,7 +5,8 @@ import {
   Users, 
   Workflow, 
   BookOpen, 
-  Terminal 
+  Terminal,
+  Play
 } from 'lucide-react';
 
 interface LayoutProps {
@@ -17,6 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { to: "/", icon: LayoutDashboard, label: "Dashboard" },
     { to: "/roles", icon: Users, label: "Team & Roles" },
     { to: "/tasks", icon: Workflow, label: "Tasks & Roadmap" },
+    { to: "/execution", icon: Play, label: "Execution" },
     { to: "/protocols", icon: BookOpen, label: "Protocols" },
   ];
 
