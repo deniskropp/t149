@@ -1,0 +1,5 @@
+{
+  "name": "Meta-AI Orchestrator",
+  "description": "A comprehensive dashboard for managing the Meta-AI Playbook synthesis, visualizing role dependencies, protocols, and operational cycles.",
+  "requestFramePermissions": []
+}
